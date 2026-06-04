@@ -2,33 +2,30 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Piano Community</title>
 
 <link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 </head>
 
 <body>
 
 <h1>🎹 Piano Community</h1>
 
-<p>Willkommen auf meiner Klavierplattform.</p>
+<button id="loginBtn">Operator Login</button>
 
-<button id="loginBtn">Anmelden</button>
+<div id="uploadBereich" class="hidden">
+  <h2>📤 Upload</h2>
 
-<div id="uploadBereich" style="display:none;">
-    <h2>Aufnahme hochladen</h2>
-
-    <input type="file" id="audioFile">
-    <button>Hochladen</button>
+  <input type="file" id="audioFile">
+  <button onclick="uploadFile()">Hochladen</button>
 </div>
 
-<h2>Aufnahmen</h2>
-
-<audio controls>
-    <source src="" type="audio/mpeg">
-</audio>
+<h2>🎵 Aufnahmen</h2>
+<div id="recordings"></div>
 
 <script src="app.js"></script>
 
