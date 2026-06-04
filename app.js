@@ -1,5 +1,5 @@
 const SUPABASE_URL = "https://zwfcngrxckzutwyvanol.supabase.co";
-const SUPABASE_KEY = "DEIN_ANON_KEY";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp3ZmNuZ3J4Y2t6dXR3eXZhbm9sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2MDIwMjAsImV4cCI6MjA5NjE3ODAyMH0.fsDFDBq4goHEd1psJijNetJeo0srmKi4XT6f-RhQTXk";
 
 const supabase = window.supabase.createClient(
   SUPABASE_URL,
