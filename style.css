@@ -1,0 +1,23 @@
+body{
+    font-family:Arial,sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+h1{
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#uploadBereich{
+    background:white;
+    padding:15px;
+    margin-top:20px;
+    border-radius:10px;
+}
