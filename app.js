@@ -12,20 +12,6 @@ const uploadBereich = document.getElementById("uploadBereich");
 const audioInput = document.getElementById("audioFile");
 
 // --------------------
-// OPERATOR LOGIN (Demo)
-// --------------------
-loginBtn.addEventListener("click", () => {
-  const pass = prompt("Operator Passwort:");
-
-  if (pass === "1234") {
-    alert("👑 Operator aktiv");
-    uploadBereich.classList.remove("hidden");
-  } else {
-    alert("❌ falsch");
-  }
-});
-
-// --------------------
 // UPLOAD
 // --------------------
 async function uploadFile() {
